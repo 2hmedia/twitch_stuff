@@ -159,7 +159,8 @@
       this.scanlineBase = 40;
       this.scanlineRange = 40;
       this.scanlineShift = 15;
-
+      
+      /* Uncomment for controls
       current.add(this, 'channel', 0, 2).listen();
       current.add(this, 'phase', 0, 1).listen();
       current.add(this, 'amplitude', 0, 5).listen();
@@ -178,6 +179,7 @@
       controls.add(this, 'glitchThreshold', 0, 1);
       controls.open();
       gui.close(); // start the control panel cloased
+      */
     },
 
     tick: function () {
